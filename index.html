@@ -149,6 +149,7 @@
         /* Hero Section */
         .hero {
             height: 100vh;
+            padding-top: 80px;
             background: linear-gradient(135deg, var(--primary) 0%, var(--primary-dark) 100%);
             display: flex;
             align-items: center;
@@ -179,13 +180,9 @@
             text-align: center;
             color: var(--light);
             z-index: 1;
-            max-width: 900p
+            max-width: 900px;
             padding: 0 2rem;
             animation: fadeInUp 1s ease-out;
-            max-width: 800px;
-            margin: 0 auto;
-            padding: 0 20px;
-            text-align: center;
         }
 
         @keyframes fadeInUp {
@@ -892,4 +889,3 @@
 
         const appearOnScroll = new IntersectionObserver(function(entries, appearOnScroll) {
             entries.forEach(entry => {
-
